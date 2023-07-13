@@ -2,7 +2,7 @@ local Proxy = module("vrp", "lib/Proxy")
 vRP = Proxy.getInterface("vRP")
 
 local version = module("panelm-init", "version")
-PerformHttpRequest("https://raw.githubusercontent.com/stefandev15/panelm-init/master/version.lua",
+PerformHttpRequest("https://raw.githubusercontent.com/stefandev15/panelm-init/master/panelm-init/version.lua",
   function(err, text)
     if err == 200 then
       local newestVersion = string.gsub(text, '^%s*return%s*"(.-)"%s*$', '%1')
