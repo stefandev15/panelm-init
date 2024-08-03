@@ -12,7 +12,7 @@ PerformHttpRequest("https://raw.githubusercontent.com/stefandev15/panelm-init/ma
         error("^6You are running version ^3" ..
           version ..
           " ^6of ^5panelm-init^6, newest version: ^3" ..
-          newestVersion .. " \n^6Please update by vising ^3panelm.org^6! ^7")
+          newestVersion .. " \n^6Please update by vising ^3panel5m.net^6! ^7")
       end
     else
       error("unable to check the panelm-init version^7")
