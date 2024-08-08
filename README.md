@@ -1,4 +1,5 @@
 # panelm-init
+
 FiveM vRP helper resource
 
-![card-en](https://i.imgur.com/M7BCZ0p.png)
+![og](https://raw.githubusercontent.com/stefandev15/panelm-init/master/og.png)
